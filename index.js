@@ -33,7 +33,7 @@ app.post('/users/new', (req, res) => {
 
 app.post('/favorites/new', (req, res) => {
   const data = req.body;
-  db.set(`favorites.${data.id}`, data).write();
+  db.set(`favorites.${data.userId}.${data.id}`, data).write();
   res.json({ success: true });
 });
 
