@@ -24,7 +24,6 @@ app.get('/favorites', (req, res) => {
   return res.json(data);
 });
 
-
 app.post('/users/new', (req, res) => {
   const userDetails = req.body;
   db.set(`users.${userDetails.id}`, userDetails).write();
@@ -34,6 +33,16 @@ app.post('/users/new', (req, res) => {
 app.post('/favorites/new', (req, res) => {
   const data = req.body;
   db.set(`favorites.${data.userId}.${data.id}`, data).write();
+  res.json({ success: true });
+});
+
+app.post('/favorites/remove', (req, res) => {
+  const data = req.body;
+  console.log(data.userId);
+  console.log(data.id);
+  db.get(`favorites.${data.userId}`)
+    .unset(data.id)
+    .value();
   res.json({ success: true });
 });
 

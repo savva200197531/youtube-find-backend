@@ -21,45 +21,13 @@
   },
   "favorites": {
     "1kmm18810": {
-      "1kmm18dym": {
+      "1kmm49kqm": {
         "request": "Влад а4",
         "name": "А4",
         "order": "relevance",
         "max": 12,
         "userId": "1kmm18810",
-        "id": "1kmm18dym"
-      },
-      "1kmm19q2s": {
-        "request": "Влад а4gfdgfd",
-        "name": "А422",
-        "order": "relevance",
-        "max": 12,
-        "userId": "1kmm18810",
-        "id": "1kmm19q2s"
-      },
-      "1kmm1btfq": {
-        "request": "Влад а443243232",
-        "name": "А4212121",
-        "order": "relevance",
-        "max": 12,
-        "userId": "1kmm18810",
-        "id": "1kmm1btfq"
-      },
-      "1kmm1caco": {
-        "request": "Влад а4gdgdgfdgdf",
-        "name": "А4gg",
-        "order": "relevance",
-        "max": 12,
-        "userId": "1kmm18810",
-        "id": "1kmm1caco"
-      },
-      "1kmm23ci9": {
-        "request": "Глент кобяков",
-        "name": "Глент",
-        "order": "viewCount",
-        "max": 50,
-        "userId": "1kmm18810",
-        "id": "1kmm23ci9"
+        "id": "1kmm49kqm"
       }
     }
   }
