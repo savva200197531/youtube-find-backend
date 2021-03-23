@@ -19,9 +19,21 @@ app.get('/users', (req, res) => {
   return res.json(data);
 });
 
+app.get('/favorites', (req, res) => {
+  const data = db.get('favorites').value();
+  return res.json(data);
+});
+
+
 app.post('/users/new', (req, res) => {
   const userDetails = req.body;
   db.set(`users.${userDetails.id}`, userDetails).write();
+  res.json({ success: true });
+});
+
+app.post('/favorites/new', (req, res) => {
+  const data = req.body;
+  db.set(`favorites.${data.id}`, data).write();
   res.json({ success: true });
 });
 

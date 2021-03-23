@@ -6,5 +6,28 @@
       "online": true,
       "id": "1kmdd7np1"
     }
+  },
+  "favorites": {
+    "1kmm040kt": {
+      "request": "Влад а4",
+      "name": "А4",
+      "order": "relevance",
+      "max": 12,
+      "id": "1kmm040kt"
+    },
+    "1kmm0588n": {
+      "request": "Привет",
+      "name": "Привет",
+      "order": "relevance",
+      "max": 12,
+      "id": "1kmm0588n"
+    },
+    "1kmm05uej": {
+      "request": "Пока",
+      "name": "Пока",
+      "order": "relevance",
+      "max": 50,
+      "id": "1kmm05uej"
+    }
   }
 }
