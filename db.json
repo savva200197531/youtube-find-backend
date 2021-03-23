@@ -1,28 +1,4 @@
 {
-  "users": {
-    "1kmm8v39q": {
-      "login": "12345678",
-      "password": "12345678",
-      "online": true,
-      "id": "1kmm8v39q"
-    },
-    "1kmm8vhkj": {
-      "login": "123456783213213",
-      "password": "12345678",
-      "online": false,
-      "id": "1kmm8vhkj"
-    }
-  },
-  "favorites": {
-    "1kmm8v39q": {
-      "1kmm8vui6": {
-        "request": "Влад а4",
-        "name": "А4",
-        "order": "relevance",
-        "max": 12,
-        "userId": "1kmm8v39q",
-        "id": "1kmm8vui6"
-      }
-    }
-  }
+  "users": {},
+  "favorites": {}
 }
