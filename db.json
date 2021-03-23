@@ -1,33 +1,27 @@
 {
   "users": {
-    "1kmm18810": {
+    "1kmm8v39q": {
       "login": "12345678",
       "password": "12345678",
       "online": true,
-      "id": "1kmm18810"
+      "id": "1kmm8v39q"
     },
-    "1kmm18i03": {
-      "login": "123456781",
+    "1kmm8vhkj": {
+      "login": "123456783213213",
       "password": "12345678",
       "online": false,
-      "id": "1kmm18i03"
-    },
-    "1kmm19885": {
-      "login": "12345678111",
-      "password": "12345678",
-      "online": false,
-      "id": "1kmm19885"
+      "id": "1kmm8vhkj"
     }
   },
   "favorites": {
-    "1kmm18810": {
-      "1kmm49kqm": {
+    "1kmm8v39q": {
+      "1kmm8vui6": {
         "request": "Влад а4",
         "name": "А4",
         "order": "relevance",
         "max": 12,
-        "userId": "1kmm18810",
-        "id": "1kmm49kqm"
+        "userId": "1kmm8v39q",
+        "id": "1kmm8vui6"
       }
     }
   }
